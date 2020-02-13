@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="inc.ahmedmourad.query">
+    <application
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"/>
+</manifest>

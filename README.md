@@ -20,23 +20,23 @@ Query.with("A").and().beginGroup().param("B").and().param("C").endGroup(); // "A
 #### Smart
 
 ```java
-Query.with("A").and().or().param("B") // "A" OR "B"
-Query.with("A").or().and().param("B") // "A" AND "B"
-Query.with("A").and().or().and().or().param("B") // "A" OR "B"
-Query.with("A").or().and().or().and().param("B") // "A" AND "B"
+Query.with("A").and().or().param("B"); // "A" OR "B"
+Query.with("A").or().and().param("B"); // "A" AND "B"
+Query.with("A").and().or().and().or().param("B"); // "A" OR "B"
+Query.with("A").or().and().or().and().param("B"); // "A" AND "B"
 
-Query.with("A").and().param("B").param("C") // "A" AND "C"
+Query.with("A").and().param("B").param("C"); // "A" AND "C"
 
-Query.with("A").and().beginGroup().param("B") // "A" AND "B"
+Query.with("A").and().beginGroup().param("B"); // "A" AND "B"
 
-Query.with("A").and().beginGroup().param("B").and().param("C") // "A" AND ("B" AND "C")
+Query.with("A").and().beginGroup().param("B").and().param("C"); // "A" AND ("B" AND "C")
 ```
 
 
 #### Empty Query
 
 ```java
-Query.empty()
+Query.empty();
 ```
 
 
@@ -54,7 +54,7 @@ String json = query.toJson(true);
 
 System.out.println(json);
 
-Query query = Query.fromJson(json)
+Query query = Query.fromJson(json);
 ```
 
 

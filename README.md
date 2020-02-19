@@ -139,7 +139,9 @@ Query query3 = Query.with("A")
 
 #### Samples
 
-![screenshot 0](/screenshots/0.jpg)    ![screenshot 1](/screenshots/1.jpg)
+![screenshot 0](/screenshots/0.jpg)
+
+![screenshot 1](/screenshots/1.jpg)
 
 ![screenshot 2](/screenshots/2.jpg)
 
